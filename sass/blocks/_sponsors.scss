@@ -1,0 +1,56 @@
+.sponsors {
+    min-height: 410px;
+    background: #403E3B;
+    &__wrapper {
+        padding-top: 124px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        &_title {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #ECE7E4;
+        }
+        &_subtitle {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 38px;
+            color: #FFFFFF;
+        }
+        &_descr {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 24px;
+            color: #ECE7E4;
+            width: 451px;
+            margin-top: 14px;
+        }
+        &_images {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            &_image {
+                width: 50%;
+                &:nth-child(1) {
+                    margin-top: 30px;
+                }
+                &:nth-child(3) {
+                    margin-top: 90px;
+                }
+                &:nth-child(4) {
+                    margin-top: 80px;
+                }
+            }
+        }
+    }
+}

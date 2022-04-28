@@ -1,0 +1,49 @@
+.header {
+    min-height: 90px;
+    background: #fff;
+    padding-bottom: 20px;
+    transition: all .3s;
+    position: relative;
+    z-index: 3000;
+    top: -100%;
+    &_active {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 90px;
+        background: #fff;
+        transition: all .3s ease-in-out;
+    }
+    &__wrapper {
+        padding-top: 36px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__burger {
+        display: none;
+        &_list {
+            display: none;
+        }
+    }
+    &__menu {
+        display: flex;
+        align-items: center;
+        &_list {
+            display: flex;
+            &_li {
+                margin: 0 16px;
+                a {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 24px;
+                    color: #1B1A1A;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

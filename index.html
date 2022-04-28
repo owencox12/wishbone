@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <svg style="display: none;">
+        <symbol viewBox="0 0 56.693 56.693" id="twitter">
+            <path d="M52.837,15.065c-1.811,0.805-3.76,1.348-5.805,1.591c2.088-1.25,3.689-3.23,4.444-5.592c-1.953,1.159-4.115,2-6.418,2.454  c-1.843-1.964-4.47-3.192-7.377-3.192c-5.581,0-10.106,4.525-10.106,10.107c0,0.791,0.089,1.562,0.262,2.303  c-8.4-0.422-15.848-4.445-20.833-10.56c-0.87,1.492-1.368,3.228-1.368,5.082c0,3.506,1.784,6.6,4.496,8.412  c-1.656-0.053-3.215-0.508-4.578-1.265c-0.001,0.042-0.001,0.085-0.001,0.128c0,4.896,3.484,8.98,8.108,9.91  c-0.848,0.23-1.741,0.354-2.663,0.354c-0.652,0-1.285-0.063-1.902-0.182c1.287,4.015,5.019,6.938,9.441,7.019  c-3.459,2.711-7.816,4.327-12.552,4.327c-0.815,0-1.62-0.048-2.411-0.142c4.474,2.869,9.786,4.541,15.493,4.541  c18.591,0,28.756-15.4,28.756-28.756c0-0.438-0.009-0.875-0.028-1.309C49.769,18.873,51.483,17.092,52.837,15.065z"/>
+        </symbol>
+    </svg>
+    <svg style="display: none;">
+        <symbol viewBox="0 0 56.7 56.7" id="instagram">
+            <g>
+                <path d="M28.2,16.7c-7,0-12.8,5.7-12.8,12.8s5.7,12.8,12.8,12.8S41,36.5,41,29.5S35.2,16.7,28.2,16.7z M28.2,37.7
+                    c-4.5,0-8.2-3.7-8.2-8.2s3.7-8.2,8.2-8.2s8.2,3.7,8.2,8.2S32.7,37.7,28.2,37.7z"/>
+                <circle cx="41.5" cy="16.4" r="2.9"/>
+                <path d="M49,8.9c-2.6-2.7-6.3-4.1-10.5-4.1H17.9c-8.7,0-14.5,5.8-14.5,14.5v20.5c0,4.3,1.4,8,4.2,10.7c2.7,2.6,6.3,3.9,10.4,3.9
+                    h20.4c4.3,0,7.9-1.4,10.5-3.9c2.7-2.6,4.1-6.3,4.1-10.6V19.3C53,15.1,51.6,11.5,49,8.9z M48.6,39.9c0,3.1-1.1,5.6-2.9,7.3
+                    s-4.3,2.6-7.3,2.6H18c-3,0-5.5-0.9-7.3-2.6C8.9,45.4,8,42.9,8,39.8V19.3c0-3,0.9-5.5,2.7-7.3c1.7-1.7,4.3-2.6,7.3-2.6h20.6
+                    c3,0,5.5,0.9,7.3,2.7c1.7,1.8,2.7,4.3,2.7,7.2V39.9L48.6,39.9z"/>
+            </g>
+        </symbol>
+    </svg>
+    <svg style="display: none;">
+        <symbol viewBox="0 0 56.693 56.693" id="facebook" >
+            <path d="M40.43,21.739h-7.645v-5.014c0-1.883,1.248-2.322,2.127-2.322c0.877,0,5.395,0,5.395,0V6.125l-7.43-0.029  c-8.248,0-10.125,6.174-10.125,10.125v5.518h-4.77v8.53h4.77c0,10.947,0,24.137,0,24.137h10.033c0,0,0-13.32,0-24.137h6.77  L40.43,21.739z"/>
+        </symbol>
+    </svg>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <img src="image/logo.png" alt="">
+                </div>
+                <div class="header__menu">
+                    <ul class="header__menu_list">
+                        <li class="header__menu_list_li"><a href="#">Projects</a></li>
+                        <li class="header__menu_list_li"><a href="#">About</a></li>
+                        <li class="header__menu_list_li"><a href="#">News</a></li>
+                        <li class="header__menu_list_li"><a href="#">Team</a></li>
+                        <li class="header__menu_list_li"><a href="#">Contact</a></li>
+                    </ul>
+                    <div class="header__menu_button">
+                        <button class="button button--header">Get template</button>
+                    </div>
+                </div>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <div class="header__burger_list">
+                    <ul class="header__burger_list_menu">
+                        <li class="header__burger_list_menu_type"><a href="#">Projects</a></li>
+                        <li class="header__burger_list_menu_type"><a href="#">About</a></li>
+                        <li class="header__burger_list_menu_type"><a href="#">News</a></li>
+                        <li class="header__burger_list_menu_type"><a href="#">Team</a></li>
+                        <li class="header__burger_list_menu_type"><a href="#">Contact</a></li>
+                    </ul>
+                    <div class="header__burger_list_button">
+                        <button class="button button--header--burger">Get template</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+        <div class="main__wrapper">
+            <div class="main__item">
+                <div class="container">
+                    <h3 class="main__item_title">
+                        Wishbone+Partners
+                    </h3>
+                    <h1 class="main__item_subtitle">
+                        The home of beautiful architecture.
+                    </h1>
+                    <div class="main__item_descr">
+                        We are an architecture firm with a focus on beautiful but functional design. At its heart, we believe design is about usability and accessibility — these are the guiding principles for our work. Read more about our previous projects, our process and our team below.
+                    </div>
+                    <div class="main__item_link">
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="main__item main__item_second">
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <div class="about__wrapper">
+                <div class="about__item">
+                    <div class="about__item_title">
+                        Our firm
+                    </div>
+                </div>
+                <div class="about__item about__item_second">
+                    <div class="about__item_descr">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+                        </div>
+                        <div class="about__item_descr">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+                        </div>
+                        <div class="about__item_descr">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+                        </div>
+                    <div class="about__item_block">
+                        <div class="about__item_block_image">
+                            <img src="image/imageAbout.png" alt="">
+                        </div>
+                        <div class="about__item_block_image_name">Stephen Collier <br> <span>Senior Partner</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reeding">
+            <div class="reeding__title">
+                Reeding House
+            </div>
+            <div class="reeding__descr">
+                Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.
+            </div>
+    </section>
+    <section class="process">
+        <div class="container">
+            <h4 class="process__title">
+                Our process
+            </h4>
+            <h1 class="process__subtitle">
+                How we do what we do.
+            </h1>
+            <div class="process__wrapper">
+                <div class="process__item">
+                    <div class="process__item_image">
+                        <img src="image/processItemimg1.png" alt="">
+                    </div>
+                    <div class="process__item_title">
+                        Sketching
+                    </div>
+                    <div class="process__item_descr">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut tristique libero. Nulla luctus sapien ac arcu tempor, vitae tempor leo iaculis.
+                    </div>
+                </div>
+                <div class="process__item">
+                    <div class="process__item_image">
+                        <img src="image/processItemimg2.png" alt="">
+                    </div>
+                    <div class="process__item_title">
+                        Finalizing
+                    </div>
+                    <div class="process__item_descr">
+                        Adipiscing elit. Nulla ut tristique libero. Nulla vitae tempor leo iaculis luctus sapien ac arcu tempor, vitae.
+                    </div>
+                </div>
+                <div class="process__item">
+                    <div class="process__item_image">
+                        <img src="image/processItemimg3.png" alt="">
+                    </div>
+                    <div class="process__item_title">
+                        Building
+                    </div>
+                    <div class="process__item_descr">
+                        Nulla ut tristique libero. Lorem ipsum ut tristique libero. Nulla luctus sapien ac arcu tempor, vitae lorem ipsum dolor leo iaculis.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="marble">
+        <div class="reeding__title reeding__title_marble">The marble staircase</div>
+        <div class="reeding__descr reeding__descr_marble">Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</div>
+    </section>
+    <section class="sponsors">
+        <div class="container">
+            <div class="sponsors__wrapper">
+                <div class="sponsors__item">
+                    <h4 class="sponsors__item_title">
+                        prior clients
+                    </h4>
+                    <h1 class="sponsors__item_subtitle">
+                        Happy customers.
+                    </h1>
+                    <div class="sponsors__item_descr">
+                        Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.
+                    </div>
+                </div>
+                <div class="sponsors__item">
+                    <div class="sponsors__item_images">
+                        <div class="sponsors__item_images_image">
+                            <img src="image/sponsors1.png" alt="">
+                        </div>
+                        <div class="sponsors__item_images_image">
+                            <img src="image/sponsors2.png" height="60px" width="128px" alt="">
+                        </div>
+                        <div class="sponsors__item_images_image">
+                            <img src="image/sponsors3.png" alt="">
+                        </div>
+                        <div class="sponsors__item_images_image">
+                            <img src="image/sponsors4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="staircase">
+        <div class="reeding__title reeding__title_staircase">The marble staircase</div>
+        <div class="reeding__descr reeding__descr_staircase">Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</div>
+    </section>
+    <section class="featured">
+        <div class="container">
+            <h4 class="featured__title">
+                Featured projects
+            </h4>
+            <h1 class="featured__subtitle">
+                Some of the latest and greatest projects from us here at Wishbone+Partners.
+            </h1>
+            <div class="featured__wrapper">
+                <div class="featured__item">
+                    <div class="featured__item_image featured__item_image_second">
+                        <img src="image/featuredItemImage.png" alt="">
+                        <div class="featured__item_image_mask">
+                        <div class="featured__item_image_text">
+                            <h4 class="featured__item_image_text_title">
+                                New York
+                            </h4>
+                            <h3 class="featured__item_image_text_subtitle">
+                                Big Road Brewery
+                            </h3>
+                            <div class="featured__item_image_text_button">
+                                <button class="button button--featured">Read more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="featured__item featured__item_second">
+                    <div class="featured__item_image featured__item_image_second">
+                        <img src="image/featuredItemImage2.png" alt="">
+                        <div class="featured__item_image_mask">
+                        <div class="featured__item_image_text">
+                            <h4 class="featured__item_image_text_title">
+                                New York
+                            </h4>
+                            <h3 class="featured__item_image_text_subtitle">
+                                Big Road Brewery
+                            </h3>
+                            <div class="featured__item_image_text_button">
+                                <button class="button button--featured">Read more</button>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="featured__item">
+                    <div class="featured__item_image featured__item_image_second">
+                        <img src="image/featuredItemImage3.png" alt="">
+                        <div class="featured__item_image_mask">
+                        <div class="featured__item_image_text">
+                            <h4 class="featured__item_image_text_title">
+                                New York
+                            </h4>
+                            <h3 class="featured__item_image_text_subtitle">
+                                Big Road Brewery
+                            </h3>
+                            <div class="featured__item_image_text_button">
+                                <button class="button button--featured">Read more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="featured__link">
+                <a href="#">View all projects</a>
+            </div>
+        </div>
+    </section>
+    <section class="team">
+        <div class="container">
+            <div class="team__wrapper">
+                <div class="team__item">
+                    <h4 class="team__item_title">
+                        Meet our team
+                    </h4>
+                    <h1 class="team__item_descr">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis.
+                    </h1>
+                    <div class="team__item_link">
+                        <a href="#">See team</a>
+                    </div>
+                </div>
+                <div class="team__item team__item_second">
+                    <div class="team__item_block">
+                        <div class="team__item_block_image">
+                            <img src="image/team1.png" alt="">
+                        </div>
+                        <div class="team__item_block_name">
+                            Stephen Collier<br> <span>Senior Partner</span>
+                        </div>
+                    </div>
+                    <div class="team__item_block">
+                        <div class="team__item_block_image">
+                            <img src="image/team2.png" alt="">
+                        </div>
+                        <div class="team__item_block_name">
+                            Nolan Peters<br> <span>Associate</span>
+                        </div>
+                    </div>
+                    <div class="team__item_block">
+                        <div class="team__item_block_image">
+                            <img src="image/team3.png" alt="">
+                        </div>
+                        <div class="team__item_block_name">
+                            Ferris Wonder<br> <span>Associate Partner</span>
+                        </div>
+                    </div>
+                    <div class="team__item_block">
+                        <div class="team__item_block_image">
+                            <img src="image/team4.png" alt="">
+                        </div>
+                        <div class="team__item_block_name">
+                            Aria Stone<br> <span>Senior Partner</span>
+                        </div>
+                    </div>
+                    <div class="team__item_block">
+                        <div class="team__item_block_image">
+                            <img src="image/team5.png" alt="">
+                        </div>
+                        <div class="team__item_block_name">
+                            Niko Ferry<br> <span>Partner</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="join">
+        <div class="container">
+            <div class="join__wrapper">
+                <div class="join__item">
+                    <h4 class="join__item_title">
+                        Get in touch
+                    </h4>
+                    <h1 class="join__item_subtitle">
+                        Think we would be a good fit for your next project?
+                    </h1>
+                </div>
+                <div class="join__item">
+                    <div class="join__item_link">
+                        <a href="#">Get in touch</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__item">
+                    <div class="footer__item_logo">
+                        <img src="image/logo.png" alt="">
+                    </div>
+                    <div class="footer__item_text">
+                        Powered by Webflow
+                    </div>
+                    <div class="footer__item_text">
+                        All rights reserved Wishbone+Partners, Inc. Licensing.
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__item_icons">
+                        <div class="footer__item_icons_icon">
+                            <svg class="footer__item_icons_icon_svg"><use xlink:href="#twitter"></use></svg>
+                        </div>
+                        <div class="footer__item_icons_icon">
+                            <svg class="footer__item_icons_icon_svg"><use xlink:href="#instagram"></use></svg>
+                        </div>
+                        <div class="footer__item_icons_icon">
+                            <svg class="footer__item_icons_icon_svg"><use xlink:href="#facebook"></use></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="js/script.js"></script>
+</body>
+</html>

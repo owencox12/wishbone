@@ -1,0 +1,29 @@
+.reeding {
+    min-height: 600px;
+    background: url(../../image/reedingBG.png) center center / cover no-repeat;
+    &__title {
+        text-align: right;
+        padding-right: 223px;
+        padding-top: 266px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #403E3B;
+    }
+    &__descr {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #645C55;
+        padding-right: 70px;
+        text-align: left;
+        width: 285px;
+        margin-left: auto;
+    }
+}

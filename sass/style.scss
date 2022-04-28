@@ -1,0 +1,26 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+body.lock {
+    overflow: hidden
+}
+
+@import 'blocks/header';
+@import 'blocks/button';
+@import 'blocks/main';
+@import 'blocks/about';
+@import 'blocks/reeding';
+@import 'blocks/process';
+@import 'blocks/marble';
+@import 'blocks/sponsors';
+@import 'blocks/staircase';
+@import 'blocks/featured';
+@import 'blocks/team';
+@import 'blocks/join';
+@import 'blocks/footer';
+@import 'blocks/media';
